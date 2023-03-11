@@ -8,4 +8,10 @@
 - NextJS
 - Facebook Login
 - Image Uploading
+
+### Build Development Server
+
+```sh
+yarn run dev
+``` 
 #### [ Developer : Blesslin Jerish R ]
