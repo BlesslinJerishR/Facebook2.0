@@ -6,6 +6,7 @@ import {
     ChevronDownIcon,
     HomeIcon,
     UserGroupicon,
+    ViewGridIcon,
     ViewGridicon,
 } from "@heroicons/react/solid";
 import{
@@ -31,8 +32,8 @@ function Header() {
       </div>
       <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
         <SearchIcon className="h-6 text-gray-600" />
-        <input 
-            className='flex ml-2 items bg-gray-100 outline-none 
+        <input
+            className='hidden md:inline-flex ml-2 items bg-gray-100 outline-none 
             placeholder-gray-500 flex-shrink' type="text" placeholder="Search Facebook"/>
       </div>
       {/* Center */}
@@ -46,7 +47,21 @@ function Header() {
           </div>
         </div>
       {/* Right */}
-    
+      <div className='flex items-center sm:space-x-2 justify-end'>
+        {/* Profile Pic */}
+        <Image
+          className='rounded-full cursor-pointer'
+          src="https://img.icons8.com/color/96/null/user-female-circle--v1.png"
+          width={40}
+          height={40}
+          layout="fixed"
+        />
+        <p className='font-semibold pr-3 whitespace-nowrap'>Blesslin Jerish</p>
+        <ViewGridIcon className='icon'/>
+        <ChatIcon className='icon'/>
+        <BellIcon className='icon'/>
+        <ChevronDownIcon className='icon'/>
+      </div>
     </div>
   )
 }

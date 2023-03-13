@@ -6,6 +6,8 @@
 - ReactJS
 - Tailwind CSS
 - NextJS
+- Next Auth
+- Hero Icons
 - Facebook Login
 - Image Uploading
 
