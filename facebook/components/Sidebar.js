@@ -5,7 +5,7 @@ import {
 } from '@heroicons/react/outline';
 
 import {
-    CalenderIcon,
+    CalendarIcon,
     ClockIcon,
     DesktopComputerIcon,
     UsersIcon,
@@ -19,7 +19,7 @@ function Sidebar() {
         <SidebarRow Icon={UserGroupIcon} title="Groups"/>
         <SidebarRow Icon={ShoppingBagIcon} title="Marketplace"/>
         <SidebarRow Icon={DesktopComputerIcon} title="Watch"/>
-        <SidebarRow Icon={CalenderIcon} title="Events"/>
+        <SidebarRow Icon={CalendarIcon} title="Events"/>
         <SidebarRow Icon={ClockIcon} title="Memories"/>
         <SidebarRow Icon={ChevronDownIcon} title="See More"/>
     </div>
