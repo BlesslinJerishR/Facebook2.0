@@ -26,4 +26,10 @@
 yarn run dev
 ```
 
+### Build Deploy
+
+```sh
+yarn build
+```
+
 #### [ Developer : Blesslin Jerish R ]
