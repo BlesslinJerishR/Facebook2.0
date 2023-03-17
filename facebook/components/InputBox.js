@@ -3,7 +3,7 @@ import {
   EmojiHappyIcon,
   VideoCameraIcon,
 } from "@heroicons/react/solid";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { db } from "../firebase";
 
 function InputBox() {

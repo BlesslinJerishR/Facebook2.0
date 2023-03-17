@@ -14,7 +14,8 @@ const stories = [
   {
     name: "Jeff Bezos",
     src: "https://links.papareact.com/k2j",
-    profile: "https://m.media-amazon.com/images/M/MV5BYTNlOGZhYzgtMmE3OC00Y2NiLWFhNWQtNzg5MjRhNTJhZGVmXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_.jpg",
+    profile:
+      "https://m.media-amazon.com/images/M/MV5BYTNlOGZhYzgtMmE3OC00Y2NiLWFhNWQtNzg5MjRhNTJhZGVmXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_.jpg",
   },
   {
     name: "Mark Zuckerberg",

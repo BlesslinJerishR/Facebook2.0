@@ -1,5 +1,13 @@
+import Post from "./Post";
+
 function Posts() {
-  return <div>Posts</div>;
+  return (
+    <div>
+      <Post />
+      {/* <Post />
+      <Post /> */}
+    </div>
+  );
 }
 
 export default Posts;
