@@ -14,6 +14,9 @@
 - ReactJS
 - Tailwind CSS
 - NextJS
+- HTML
+- CSS
+- JS
 - Next Auth
 - Hero Icons
 - Facebook Login
